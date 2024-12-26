@@ -8,10 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 
 builder.Services.AddOcelot();
-//var app = builder.Build();
-
-//app.Run();
-
 
 var app = builder.Build();
 
